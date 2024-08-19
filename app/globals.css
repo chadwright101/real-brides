@@ -1,3 +1,86 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "myriadpro";
+        src: url("/assets/fonts/myriadpro/myriadpro-light.woff2") format("woff2"),
+            url("/assets/fonts/myriadpro/myriadpro-light.woff") format("woff"),
+            url("/assets/fonts/myriadpro/myriadpro-light.ttf") format("truetype");
+        font-weight: 300;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "myriadpro";
+        src: url("/assets/fonts/myriadpro/myriadpro-bold.woff2") format("woff2"),
+            url("/assets/fonts/myriadpro/myriadpro-bold.woff") format("woff"),
+            url("/assets/fonts/myriadpro/myriadpro-bold.ttf") format("truetype");
+        font-weight: 700;
+        font-display: swap;
+    }
+
+    @font-face {
+        font-family: "optionyx";
+        src: url("/assets/fonts/optionyx/optionyx.woff2") format("woff2"),
+            url("/assets/fonts/optionyx/optionyx.woff") format("woff"),
+            url("/assets/fonts/optionyx/optionyx.ttf") format("truetype"),
+            url("/assets/fonts/optionyx/optionyx.otf") format("opentype");
+        font-weight: 400;
+        font-display: swap;
+    }
+}
+
+@layer components {
+
+    * {
+        @apply font-myriadpro font-light text-paragraph text-black
+    }
+
+    h1 {
+        @apply font-optionyx text-heading
+    }
+
+    h2, h3, h4, h5, h6 {
+        @apply font-bold text-subheading
+    }
+
+    ul, ol {
+        @apply list-disc list-inside pl-4
+    }
+
+    .small-spinner {
+        width: 20px;
+        height: 20px;
+        position: relative;
+    }
+
+    .small-spinner::before,
+    .small-spinner::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 3px solid transparent;
+        border-top-color: #523B6D;
+        animation: spin 1s linear infinite;
+    }
+
+    .small-spinner::after {
+        animation-delay: 0.5s;
+    }
+
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+}
