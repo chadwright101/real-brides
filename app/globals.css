@@ -43,11 +43,15 @@
     }
 
     h2, h3, h4, h5, h6 {
-        @apply font-bold text-subheading
+        @apply text-subheading uppercase
     }
 
     ul, ol {
         @apply list-disc list-inside pl-4
+    }
+
+    img {
+        @apply drop-shadow-default
     }
 
     .small-spinner {
@@ -82,5 +86,54 @@
         to {
             transform: rotate(360deg);
         }
+    }
+
+    .protea-image {
+        @apply hidden w-[250px]
+    }
+
+    /* extra-small */
+    @media (min-height: 500px) {
+        .protea-image {
+            @apply block
+        }
+    }
+
+    /* small */
+    @media (min-height: 525px) {
+
+        .protea-image {
+            @apply w-[275px]
+        }
+    }
+
+    /* medium */
+    @media (min-height: 575px) {
+        .protea-container {
+            @apply h-[270px] -mr-2
+        }
+
+        .protea-image {
+            @apply w-[305px]
+        }
+    }
+
+    /* large */
+    @media (min-height: 625px) {
+        .protea-container {
+            @apply h-[325px] -mr-4
+        }
+
+        .protea-image {
+            @apply w-[315px]
+        }
+    }
+
+    /* extra large */
+    @media (min-height: 675px) {
+        .protea-container {
+            @apply h-[370px]
+        }
+
     }
 }

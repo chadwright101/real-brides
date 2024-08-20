@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Home",
+    "url": "/"
+  },
+  {
+    "title": "About",
+    "url": "/about"
+  },
+  {
+    "title": "Magazine Catalog",
+    "url": "/catalog"
+  },
+  {
+    "title": "Vendors",
+    "url": "/vendors"
+  },
+  {
+    "title": "Contact",
+    "url": "/contact"
+  }
+]
