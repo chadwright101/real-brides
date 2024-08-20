@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+
     @font-face {
         font-family: "myriadpro";
         src: url("/assets/fonts/myriadpro/myriadpro-light.woff2") format("woff2"),
@@ -135,5 +136,12 @@
             @apply h-[370px]
         }
 
+    }
+
+    .swiper-container-free-mode>.swiper-wrapper {
+        -webkit-transition-timing-function: linear;
+        -o-transition-timing-function: linear;
+        transition-timing-function: linear;
+        margin: 0 auto;
     }
 }

@@ -1,0 +1,11 @@
+{
+  "images": {
+    "homePage": {
+      "heroSlider": [
+        "/assets/placeholders/placeholder-1.jpg",
+        "/assets/placeholders/placeholder-2.webp",
+        "/assets/placeholders/placeholder-3.jpg"
+      ]
+    }
+  }
+}

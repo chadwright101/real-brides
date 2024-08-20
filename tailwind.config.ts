@@ -28,19 +28,21 @@ const config: Config = {
         "1rem",
         {
           lineHeight: "130%",
+          letterSpacing: "0.016rem",
         },
       ],
       subheading: [
         "1rem",
         {
           lineHeight: "130%",
+          letterSpacing: "0.016rem",
         },
       ],
       heading: [
         "4rem",
         {
           lineHeight: "105%",
-          letterSpacing: "0.063rem",
+          letterSpacing: "0.125rem",
         },
       ],
     },

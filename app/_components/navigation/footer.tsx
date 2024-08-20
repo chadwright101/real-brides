@@ -8,10 +8,13 @@ const Footer = () => {
     <footer className="px-5 pt-6 pb-5 grid gap-5 border-t-4 border-purple tablet:grid-cols-2 tablet:gap-y-2 tablet:px-15 tablet:pt-10">
       <ul className="hidden tablet:block list-none pl-0">
         {navData.map(({ title, url }, index) => (
-          <li key={index}>
+          <li
+            key={index}
+            className={index !== navData.length - 1 ? "mb-0.5" : ""}
+          >
             <Link
               href={url}
-              className="text-[14px] hover:underline underline-offset-2"
+              className="text-paragraph hover:underline underline-offset-2"
             >
               {title}
             </Link>
@@ -23,7 +26,7 @@ const Footer = () => {
           <li>
             <Link href="/" target="_blank">
               <Image
-                src="/assets/real-brides-logo-black.svg"
+                src="/assets/real-brides-logo-black.png"
                 alt="Real Brides logo"
                 width={60}
                 height={60}
@@ -65,30 +68,30 @@ const Footer = () => {
             </Link>
           </li>
         </ul>
-        <h4 className="hidden normal-case text-[14px] text-right tablet:grid">
+        <h4 className="hidden normal-case text-paragraph text-right tablet:grid">
           Designed & developed by{" "}
           <Link
             href="https://thewrightdesigns.co.za"
-            className=" text-[14px] text-link tablet:hover:underline underline-offset-2"
+            className=" text-paragraph text-link ml-auto tablet:hover:underline underline-offset-2"
           >
             The Wright Designs
           </Link>
         </h4>
       </div>
-      <h3 className="normal-case text-[14px] grid text-center tablet:col-span-2">
+      <h3 className="normal-case text-paragraph grid text-center mx-auto tablet:col-span-2 tablet:block">
         © 2024 Real Brides{" "}
         <Link
           href="/"
-          className=" text-[14px] text-link p-2 -m-2 tablet:hover:underline underline-offset-2 tablet:p-0 tablet:m-0"
+          className=" text-paragraph text-link p-2 -m-2 tablet:hover:underline underline-offset-2 tablet:p-0 tablet:m-0"
         >
           www.realbrides.co.za
         </Link>
       </h3>
-      <h4 className="normal-case text-[14px] grid text-center tablet:hidden">
+      <h4 className="normal-case text-paragraph grid text-center mx-auto tablet:hidden">
         Designed & developed by{" "}
         <Link
           href="https://thewrightdesigns.co.za"
-          className=" text-[14px] text-link p-2 -m-2"
+          className=" text-paragraph text-link p-2 -m-2"
         >
           The Wright Designs
         </Link>

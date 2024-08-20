@@ -14,11 +14,12 @@ const DesktopHeader = ({ cssClasses }: Props) => {
     >
       <Link href="/">
         <Image
-          src="/assets/real-brides-logo-black.svg"
+          src="/assets/real-brides-logo-black.png"
           alt="Real Brides logo"
           width={76}
           height={76}
           className="drop-shadow-none hover:opacity-80 ease-in-out duration-200"
+          priority
         />
       </Link>
       <nav className="overflow-hidden w-full grid place-items-end mx-auto">

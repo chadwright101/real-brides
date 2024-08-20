@@ -37,11 +37,12 @@ const MobileHeader = ({ cssClasses }: Props) => {
         </div>
         <Link href="/">
           <Image
-            src="/assets/real-brides-logo-black.svg"
+            src="/assets/real-brides-logo-black.png"
             alt="Real Brides logo"
             width={44}
             height={44}
             className="drop-shadow-none"
+            priority
           />
         </Link>
         <button
@@ -61,6 +62,7 @@ const MobileHeader = ({ cssClasses }: Props) => {
             className={classNames("drop-shadow-none", {
               "mr-4": showMenu,
             })}
+            priority
           />
         </button>
       </div>
@@ -69,7 +71,7 @@ const MobileHeader = ({ cssClasses }: Props) => {
           className={`fixed top-0 left-0 w-full h-screen bg-purple z-30 pt-32 ${cssClasses}`}
         >
           <Image
-            src="/assets/real-brides-logo-white.svg"
+            src="/assets/real-brides-logo-white.png"
             alt="Real Brides logo"
             width={44}
             height={44}
