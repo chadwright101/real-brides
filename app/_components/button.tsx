@@ -28,7 +28,7 @@ const Button = ({
   const { pending } = useFormStatus();
 
   const buttonStyles =
-    "rounded-xl drop-shadow-default uppercase bg-purple border-4 border-purple px-5 py-[10px] text-white font-bold ease-in-out duration-200";
+    "rounded-xl drop-shadow-default text-center uppercase bg-purple border-4 border-purple px-5 py-[10px] text-white font-bold ease-in-out duration-200";
 
   if (!form) {
     return (
