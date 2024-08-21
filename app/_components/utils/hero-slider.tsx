@@ -16,7 +16,7 @@ interface Props {
   data: string[];
 }
 
-const Slider = ({ cssClasses, desktop, data }: Props) => {
+const HeroSlider = ({ cssClasses, desktop, data }: Props) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleSlideChange = (swiper: {
@@ -133,4 +133,4 @@ const Slider = ({ cssClasses, desktop, data }: Props) => {
   }
 };
 
-export default Slider;
+export default HeroSlider;

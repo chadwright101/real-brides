@@ -7,5 +7,37 @@
         "/assets/placeholders/placeholder-3.jpg"
       ]
     }
-  }
+  },
+  "catalog": [
+    {
+      "date": "August 2024",
+      "image": "/assets/placeholders/Cover-Aug-2024.jpg",
+      "url": "/assets/placeholders/Real-Brides-Magazine-August-2024.pdf"
+    },
+    {
+      "date": "July 2024",
+      "image": "/assets/placeholders/Cover-Aug-2024.jpg",
+      "url": "/assets/placeholders/Real-Brides-Magazine-August-2024.pdf"
+    },
+    {
+      "date": "June 2024",
+      "image": "/assets/placeholders/Cover-Aug-2024.jpg",
+      "url": "/assets/placeholders/Real-Brides-Magazine-August-2024.pdf"
+    },
+    {
+      "date": "August 2024",
+      "image": "/assets/placeholders/Cover-Aug-2024.jpg",
+      "url": "/assets/placeholders/Real-Brides-Magazine-August-2024.pdf"
+    },
+    {
+      "date": "July 2024",
+      "image": "/assets/placeholders/Cover-Aug-2024.jpg",
+      "url": "/assets/placeholders/Real-Brides-Magazine-August-2024.pdf"
+    },
+    {
+      "date": "June 2024",
+      "image": "/assets/placeholders/Cover-Aug-2024.jpg",
+      "url": "/assets/placeholders/Real-Brides-Magazine-August-2024.pdf"
+    }
+  ]
 }

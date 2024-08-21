@@ -93,13 +93,13 @@ const MobileHeader = ({ cssClasses }: Props) => {
               </li>
             ))}
           </ul>
-          <div className="overflow-hidden absolute -bottom-10 right-4 h-[261px] rotate-[-7.58deg] protea-container">
+          <div className="overflow-hidden absolute -bottom-10 right-4 h-[261px] protea-container">
             <Image
               src="/assets/images/protea-flower.png"
               alt="Protea flower image"
               width={315.34}
               height={331.51}
-              className="protea-image"
+              className="protea-image rotate-[-7.58deg]"
             />
           </div>
         </nav>

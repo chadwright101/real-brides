@@ -1,21 +1,22 @@
 import Image from "next/image";
-import Button from "../button";
+import Button from "../utils/button";
+
+import catalogData from "@/app/_data/general-data.json";
+
+const { catalog } = catalogData;
 
 const CtaSection = () => {
   return (
     <main className="my-10 flex flex-wrap justify-around gap-10 px-5 max-w-[1080px] mx-auto desktop:border-b border-black/25 desktop:pb-10 desktop:justify-between desktop:px-0">
       <article className="flex flex-col gap-7 w-full max-w-[400px] desktop:w-[280px]">
-        <h2 className="text-center">August 2024 Edition</h2>
+        <h2 className="text-center">{catalog[0].date} Edition</h2>
         <Image
-          src="/assets/placeholders/Cover-Aug-2024.jpg"
+          src={catalog[0].image}
           alt="Free download"
           width={400}
           height={565.64}
         />
-        <Button
-          url="/assets/placeholders/Real-Brides-Magazine-August-2024.pdf"
-          cssClasses="w-full"
-        >
+        <Button url={catalog[0].url} cssClasses="w-full">
           Free Download
         </Button>
         <hr className="border-black/25 mt-5 desktop:hidden" />
