@@ -79,7 +79,7 @@ const MobileHeader = ({ cssClasses }: Props) => {
           />
           <ul className="text-white grid gap-2 list-none px-7">
             {navData.map(({ title, url }, index) => (
-              <li>
+              <li key={index}>
                 <Link
                   key={index}
                   href={url}
