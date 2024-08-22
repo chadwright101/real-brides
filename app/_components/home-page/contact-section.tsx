@@ -10,21 +10,21 @@ import Image from "next/image";
 const ContactSection = () => {
   const [showPhone, setShowPhone] = useState("Show phone number");
   const [showEmail, setShowEmail] = useState("Show email address");
-  const [showSpinnerPhone, setShowSpinnerPhone] = useState(false);
-  const [showSpinnerEmail, setShowSpinnerEmail] = useState(false);
+  const [showspinnerPhone, setShowspinnerPhone] = useState(false);
+  const [showspinnerEmail, setShowspinnerEmail] = useState(false);
 
   const handleShowPhoneNumber = async () => {
-    setShowSpinnerPhone(true);
+    setShowspinnerPhone(true);
     const phoneNumber = await showPhoneNumber();
     setShowPhone(phoneNumber);
-    setShowSpinnerPhone(false);
+    setShowspinnerPhone(false);
   };
 
   const handleShowEmailAddress = async () => {
-    setShowSpinnerEmail(true);
+    setShowspinnerEmail(true);
     const emailAddress = await showEmailAddress();
     setShowEmail(emailAddress);
-    setShowSpinnerEmail(false);
+    setShowspinnerEmail(false);
   };
 
   return (
@@ -47,7 +47,14 @@ const ContactSection = () => {
                 className="text-paragraph self-center py-3 px-2 -my-3 -mx-2 hover:cursor-pointer tablet:p-0 tablet:m-0 italic text-link place-self-start tablet:text-white tablet:hover:text-white/80"
                 aria-label="Show email address"
               >
-                {showSpinnerEmail ? <div className="spinner"></div> : showEmail}
+                {showspinnerEmail ? (
+                  <>
+                    <div className="hidden tablet:block spinner-white"></div>
+                    <div className="spinner-purple tablet:hidden"></div>
+                  </>
+                ) : (
+                  showEmail
+                )}
               </button>
             ) : (
               <Link
@@ -68,7 +75,14 @@ const ContactSection = () => {
                 className="text-paragraph self-center py-3 px-2 -my-3 -mx-2 hover:cursor-pointer tablet:p-0 tablet:m-0 italic text-link place-self-start tablet:text-white tablet:hover:text-white/80"
                 aria-label="Show phone number"
               >
-                {showSpinnerPhone ? <div className="spinner"></div> : showPhone}
+                {showspinnerPhone ? (
+                  <>
+                    <div className="hidden tablet:block spinner-white"></div>
+                    <div className="spinner-purple tablet:hidden"></div>
+                  </>
+                ) : (
+                  showPhone
+                )}
               </button>
             ) : (
               <Link

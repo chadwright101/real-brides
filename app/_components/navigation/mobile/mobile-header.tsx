@@ -68,7 +68,7 @@ const MobileHeader = ({ cssClasses }: Props) => {
       </div>
       {showMenu && (
         <nav
-          className={`fixed top-0 left-0 w-full h-screen bg-purple z-30 pt-32 ${cssClasses}`}
+          className={`fixed top-0 left-0 w-full h-screen bg-purple/[97%] z-30 pt-32 ${cssClasses}`}
         >
           <Image
             src="/assets/real-brides-logo-white.png"
@@ -84,6 +84,7 @@ const MobileHeader = ({ cssClasses }: Props) => {
                   key={index}
                   href={url}
                   className="text-white text-subheading font-bold uppercase p-3 -ml-3"
+                  onClick={() => setShowMenu(false)}
                 >
                   {title}
                 </Link>

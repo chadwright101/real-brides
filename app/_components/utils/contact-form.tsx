@@ -10,8 +10,8 @@ import { sendEmail } from "@/app/_actions/actions";
 
 const ContactForm = () => {
   const [submissionStartTime, setSubmissionStartTime] = useState(0);
-  const [validateRecaptcha, setValidateRecaptcha] = useState(true);
-  const [showEmailSubmitted, setShowEmailSubmitted] = useState(true);
+  const [validateRecaptcha, setValidateRecaptcha] = useState(false);
+  const [showEmailSubmitted, setShowEmailSubmitted] = useState(false);
   const [showMessage, setShowMessage] = useState(false);
 
   useEffect(() => {

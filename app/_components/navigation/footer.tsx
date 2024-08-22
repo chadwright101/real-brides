@@ -5,7 +5,7 @@ import navData from "@/app/_data/nav-data.json";
 
 const Footer = () => {
   return (
-    <footer className="px-5 pt-6 pb-5 border-t-4 border-purple tablet:px-15 tablet:pt-10">
+    <footer className="px-5 pt-6 pb-8 border-t-4 border-purple tablet:px-15 tablet:pt-10 tablet:pb-5">
       <div className="max-w-[1280px] mx-auto grid gap-5 tablet:grid-cols-2 tablet:gap-y-2">
         <ul className="hidden tablet:block list-none pl-0">
           {navData.map(({ title, url }, index) => (

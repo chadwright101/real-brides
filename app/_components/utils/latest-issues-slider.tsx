@@ -53,7 +53,7 @@ const LatestIssuesSlider = ({ cssClasses, data }: Props) => {
       {data.map(({ image, date, url }, index) => (
         <SwiperSlide
           key={index}
-          className="max-w-[198px] h-auto pb-6 tablet:pb-4"
+          className="max-w-[198px] h-auto pb-8 tablet:pb-4"
         >
           <Link
             href={url}

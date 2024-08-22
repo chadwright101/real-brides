@@ -12,7 +12,7 @@ const HeroComponent = () => {
   return (
     <section className="relative max-w-[1280px] mx-auto">
       <div className="tablet:hidden">
-        <HeroSlider data={heroSlider} cssClasses="h-[540px]" />
+        <HeroSlider data={heroSlider} cssClasses="h-[500px] phone:h-[540px]" />
       </div>
       <div className="hidden tablet:block">
         <HeroSlider

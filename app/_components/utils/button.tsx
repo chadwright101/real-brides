@@ -55,7 +55,6 @@ const Button = ({
             !pending && !whiteButton && !disabled,
           "tablet:hover:bg-purple tablet:hover:text-white":
             !pending && whiteButton && !disabled,
-          " tablet:hover:bg-purple tablet:hover:text-white": pending,
         })}
         type={type}
         onClick={onClick}
@@ -63,7 +62,11 @@ const Button = ({
         aria-label={children as string}
       >
         {pending && type == "submit" ? (
-          <div className="spinner mx-auto"></div>
+          <div
+            className={`mx-auto ${
+              whiteButton ? "spinner-purple" : "spinner-white"
+            }`}
+          ></div>
         ) : (
           type === "submit" && "Submit"
         )}
