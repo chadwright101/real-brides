@@ -28,7 +28,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="pb-10 grid gap-7 max-w-[1280px] mx-auto overflow-hidden tablet:grid-cols-2 tablet:bg-purple tablet:pt-10 tablet:pb-0 tablet:px-5 desktop:px-0 desktop:grid-cols-[1fr_550px] desktop:gap-0">
+    <section className="pb-10 grid gap-7 max-w-[1280px] mx-auto overflow-hidden tablet:grid-cols-2 tablet:bg-purple tablet:pt-10 tablet:pb-0 tablet:px-5 desktop:px-0 desktop:grid-cols-[1fr_550px] desktop:gap-0 tablet:mb-10">
       <h2 className="hidden tablet:block text-subheading col-span-2 text-center font-bold text-white mb-2 desktop:mb-0">
         Get in touch
       </h2>

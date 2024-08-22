@@ -7,7 +7,7 @@ const { catalog } = catalogData;
 
 const LatestIssueSection = () => {
   return (
-    <section className="max-w-[1080px] mx-auto px-5 tablet:px-10">
+    <section className="max-w-[1080px] mx-auto px-5 tablet:px-10 desktop:px-0">
       <div className="grid gap-7 border-b border-black/25 pb-10 mb-10">
         <h2 className="text-center font-bold">Latest Issues</h2>
         <LatestIssuesSlider data={catalog} />
