@@ -13,6 +13,7 @@ interface Props {
   disabled?: boolean;
   form?: boolean;
   type?: "submit" | "button";
+  whiteButton?: boolean;
 }
 
 const Button = ({
@@ -24,11 +25,15 @@ const Button = ({
   disabled,
   form,
   type = "button",
+  whiteButton,
 }: Props) => {
   const { pending } = useFormStatus();
 
-  const buttonStyles =
-    "rounded-xl drop-shadow-default text-center uppercase bg-purple border-4 border-purple px-5 py-[10px] text-white font-bold ease-in-out duration-200";
+  const buttonStyles = `rounded-xl drop-shadow-default text-center uppercase border-4 px-5 py-[10px] font-bold ease-in-out duration-200 ${
+    !whiteButton
+      ? "bg-purple text-white border-purple"
+      : "bg-white text-black border-white"
+  }`;
 
   if (!form) {
     return (
@@ -45,8 +50,11 @@ const Button = ({
     return (
       <button
         className={classNames(`${buttonStyles} ${cssClasses}`, {
-          "cursor-not-allowed": !disabled || !pending,
-          "tablet:hover:bg-white tablet:hover:text-black": !pending,
+          "cursor-not-allowed": disabled || pending,
+          "tablet:hover:bg-white tablet:hover:text-black":
+            !pending && !whiteButton && !disabled,
+          "tablet:hover:bg-purple tablet:hover:text-white":
+            !pending && whiteButton && !disabled,
           "w-[107.2px] tablet:hover:bg-purple tablet:hover:text-white": pending,
         })}
         type={type}

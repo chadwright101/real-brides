@@ -32,7 +32,7 @@ const MobileHeader = ({ cssClasses }: Props) => {
             alt="Protea flower image"
             width={261}
             height={275}
-            className="rotate-[15deg] -ml-[70px] -mt-6"
+            className="rotate-[15deg] -ml-[80px] -mt-6"
           />
         </div>
         <Link href="/">
@@ -93,13 +93,13 @@ const MobileHeader = ({ cssClasses }: Props) => {
               </li>
             ))}
           </ul>
-          <div className="overflow-hidden absolute -bottom-10 right-4 h-[261px] protea-container">
+          <div className="overflow-hidden absolute -bottom-10 right-4 protea-container">
             <Image
               src="/assets/images/protea-flower.png"
               alt="Protea flower image"
               width={315.34}
               height={331.51}
-              className="protea-image rotate-[-7.58deg]"
+              className="protea-image translate-y-1 rotate-[-7.58deg]"
             />
           </div>
         </nav>

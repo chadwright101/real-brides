@@ -7,7 +7,7 @@ const { catalog } = catalogData;
 
 const CtaSection = () => {
   return (
-    <main className="my-10 flex flex-wrap justify-around gap-10 px-5 max-w-[1080px] mx-auto desktop:border-b border-black/25 desktop:pb-10 desktop:justify-between desktop:px-0">
+    <main className="mt-10 mb-10 flex flex-wrap justify-around gap-10 px-5 max-w-[1080px] mx-auto desktop:border-b border-black/25 tablet:px-10 tablet:mt-15 desktop:pb-10 desktop:justify-between desktop:px-0">
       <article className="flex flex-col gap-7 w-full max-w-[400px] desktop:w-[280px]">
         <h2 className="text-center">{catalog[0].date} Edition</h2>
         <Image

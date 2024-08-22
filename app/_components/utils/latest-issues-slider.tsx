@@ -37,11 +37,16 @@ const LatestIssuesSlider = ({ cssClasses, data }: Props) => {
       pagination={{
         dynamicBullets: true,
       }}
+      centeredSlides
       className={cssClasses}
       slidesPerView={"auto"}
       slidesPerGroup={1}
       spaceBetween={20}
-      centeredSlides
+      breakpoints={{
+        900: {
+          centeredSlides: false,
+        },
+      }}
       loop
       style={
         {

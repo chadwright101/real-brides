@@ -35,12 +35,12 @@ const DesktopHeader = ({ cssClasses }: Props) => {
             </li>
           ))}
         </ul>
-        <div className="h-full right-6 bottom-0 overflow-hidden absolute opacity-20">
+        <div className="h-full right-[76px] bottom-0 overflow-hidden absolute opacity-20">
           <Image
             src="/assets/images/protea-flower.png"
             alt="Protea flower image"
-            width={445}
-            height={467}
+            width={520}
+            height={1103.76}
             className="rotate-[15deg] -mt-12"
           />
         </div>
