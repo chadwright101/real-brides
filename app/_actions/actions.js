@@ -35,19 +35,18 @@ export async function sendEmail(formData) {
       const transporter = nodemailer.createTransport({
         host: process.env.SMTP_HOST,
         port: process.env.SMTP_PORT,
-        secure: true,
+        secure: false,
         auth: {
           user: process.env.SMTP_USER,
           pass: process.env.SMTP_PASS,
         },
-        tls: {
-          rejectUnauthorized: false,
-        },
+        requireTLS: true,
       });
+
       const mailOptions = {
         from: process.env.SMTP_USER,
         to: process.env.SMTP_SEND_TO,
-        subject: "Website form submission - Adopt a Swimmer",
+        subject: "Website form submission - Real Brides Magazine",
         replyTo: email,
         html: emailHtmlContent,
       };

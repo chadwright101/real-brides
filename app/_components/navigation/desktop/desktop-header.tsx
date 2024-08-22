@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import navData from "@/app/_data/nav-data.json";
+import NavItem from "./nav-item";
 
 interface Props {
   cssClasses?: string;
@@ -25,14 +26,7 @@ const DesktopHeader = ({ cssClasses }: Props) => {
       <nav className="overflow-hidden w-full grid place-items-end mx-auto">
         <ul className="flex list-none gap-3 mb-1 z-10">
           {navData.map(({ title, url }, index) => (
-            <li key={index}>
-              <Link
-                href={url}
-                className="pb-1 -mb-1 hover:underline underline-offset-4 decoration-2 decoration-purple"
-              >
-                {title}
-              </Link>
-            </li>
+            <NavItem key={index} title={title} url={url} />
           ))}
         </ul>
         <div className="h-full right-[76px] bottom-0 overflow-hidden absolute opacity-20">

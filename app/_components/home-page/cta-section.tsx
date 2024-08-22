@@ -34,7 +34,7 @@ const CtaSection = () => {
           height={400}
           className="object-cover w-full h-full"
         />
-        <Button url="/contact" cssClasses="w-full">
+        <Button url="/#contact" cssClasses="w-full">
           Submit your wedding
         </Button>
         <hr className="border-black/25 mt-5 desktop:hidden" />
@@ -55,7 +55,7 @@ const CtaSection = () => {
             className="desktop:object-cover desktop:h-full desktop:w-full desktop:overflow-visible desktop:mt-2"
           />
         </div>
-        <Button url="/contact" cssClasses="w-full desktop:mt-auto">
+        <Button url="/#contact" cssClasses="w-full desktop:mt-auto">
           Advertise with us
         </Button>
         <hr className="border-black/25 mt-5 desktop:hidden" />

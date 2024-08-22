@@ -49,13 +49,13 @@ const Button = ({
   } else {
     return (
       <button
-        className={classNames(`${buttonStyles} ${cssClasses}`, {
+        className={classNames(`${buttonStyles} min-w-[107.2px] ${cssClasses}`, {
           "cursor-not-allowed": disabled || pending,
           "tablet:hover:bg-white tablet:hover:text-black":
             !pending && !whiteButton && !disabled,
           "tablet:hover:bg-purple tablet:hover:text-white":
             !pending && whiteButton && !disabled,
-          "w-[107.2px] tablet:hover:bg-purple tablet:hover:text-white": pending,
+          " tablet:hover:bg-purple tablet:hover:text-white": pending,
         })}
         type={type}
         onClick={onClick}
@@ -63,7 +63,7 @@ const Button = ({
         aria-label={children as string}
       >
         {pending && type == "submit" ? (
-          <div className="spinner"></div>
+          <div className="spinner mx-auto"></div>
         ) : (
           type === "submit" && "Submit"
         )}

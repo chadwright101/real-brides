@@ -9,6 +9,7 @@ export default function Home() {
       <HeroComponent />
       <CtaSection />
       <LatestIssueSection />
+      <div className="-translate-y-32" id="contact"></div>
       <ContactSection />
     </>
   );

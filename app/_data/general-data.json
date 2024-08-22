@@ -11,33 +11,43 @@
   "catalog": [
     {
       "date": "August 2024",
-      "image": "/assets/placeholders/Cover-Aug-2024.jpg",
-      "url": "/assets/placeholders/Real-Brides-Magazine-August-2024.pdf"
+      "image": "/assets/images/covers/real-brides-cover-aug-24.jpg",
+      "url": "https://realbrides.co.za/magazines/Real-Brides-Aug-2024.pdf"
     },
     {
       "date": "July 2024",
-      "image": "/assets/placeholders/Cover-Aug-2024.jpg",
-      "url": "/assets/placeholders/Real-Brides-Magazine-August-2024.pdf"
+      "image": "/assets/images/covers/real-brides-cover-july-24.jpg",
+      "url": "https://realbrides.co.za/magazines/Real-Brides-July-2024.pdf"
     },
     {
       "date": "June 2024",
-      "image": "/assets/placeholders/Cover-Aug-2024.jpg",
-      "url": "/assets/placeholders/Real-Brides-Magazine-August-2024.pdf"
+      "image": "/assets/images/covers/real-brides-cover-june-24.jpg",
+      "url": "https://realbrides.co.za/magazines/Real-Brides-June-2024.pdf"
     },
     {
-      "date": "August 2024",
-      "image": "/assets/placeholders/Cover-Aug-2024.jpg",
-      "url": "/assets/placeholders/Real-Brides-Magazine-August-2024.pdf"
+      "date": "May 2024",
+      "image": "/assets/images/covers/real-brides-cover-may-24.jpg",
+      "url": "https://realbrides.co.za/magazines/Real-Brides-May-2024.pdf"
     },
     {
-      "date": "July 2024",
-      "image": "/assets/placeholders/Cover-Aug-2024.jpg",
-      "url": "/assets/placeholders/Real-Brides-Magazine-August-2024.pdf"
+      "date": "April 2024",
+      "image": "/assets/images/covers/real-brides-cover-apr-24.jpg",
+      "url": "https://realbrides.co.za/magazines/Real-Brides-Apr-2024.pdf"
     },
     {
-      "date": "June 2024",
-      "image": "/assets/placeholders/Cover-Aug-2024.jpg",
-      "url": "/assets/placeholders/Real-Brides-Magazine-August-2024.pdf"
+      "date": "March 2024",
+      "image": "/assets/images/covers/real-brides-cover-mar-24.jpg",
+      "url": "https://realbrides.co.za/magazines/Real-Brides-Mar-2024.pdf"
+    },
+    {
+      "date": "February 2024",
+      "image": "/assets/images/covers/real-brides-cover-feb-24.jpg",
+      "url": "https://realbrides.co.za/magazines/Real-Brides-Feb-2024.pdf"
+    },
+    {
+      "date": "January 2024",
+      "image": "/assets/images/covers/real-brides-cover-jan-24.jpg",
+      "url": "https://realbrides.co.za/magazines/Real-Brides-Jan-2024.pdf"
     }
   ],
   "contact": {

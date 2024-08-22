@@ -35,6 +35,10 @@
 
 @layer components {
 
+    html {
+        scroll-behavior: smooth;
+    }
+
     * {
         @apply font-myriadpro font-light text-paragraph text-black
     }
@@ -75,7 +79,7 @@
         top: 0;
         left: 0;
         border: 3px solid transparent;
-        border-top-color: #FFFFFF;
+        border-top-color: #523B6D;
         animation: spin 1s linear infinite;
     }
 

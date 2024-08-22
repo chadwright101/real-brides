@@ -10,8 +10,8 @@ import { sendEmail } from "@/app/_actions/actions";
 
 const ContactForm = () => {
   const [submissionStartTime, setSubmissionStartTime] = useState(0);
-  const [validateRecaptcha, setValidateRecaptcha] = useState(false);
-  const [showEmailSubmitted, setShowEmailSubmitted] = useState(false);
+  const [validateRecaptcha, setValidateRecaptcha] = useState(true);
+  const [showEmailSubmitted, setShowEmailSubmitted] = useState(true);
   const [showMessage, setShowMessage] = useState(false);
 
   useEffect(() => {
@@ -20,7 +20,7 @@ const ContactForm = () => {
     };
     startSubmissionTimer();
     if (showEmailSubmitted) {
-      const element = document.getElementById("email-submitted");
+      const element = document.getElementById("contact");
       if (element) {
         element.scrollIntoView({ behavior: "smooth" });
       }
@@ -43,7 +43,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div>
+    <div className={showEmailSubmitted ? "pt-10 tablet:pt-5" : ""}>
       {!showEmailSubmitted && (
         <p className="mb-5 text-white tablet:text-left">
           Please fill out the form below and we will be in touch ASAP...
@@ -51,8 +51,7 @@ const ContactForm = () => {
       )}
       {showEmailSubmitted ? (
         <>
-          <div id="email-submitted"></div>
-          <p className="text-[20px] text-white">
+          <p className="text-[20px] text-center text-white tablet:text-left pb-5">
             Your email has been sent, we will be in touch soon.
           </p>
         </>

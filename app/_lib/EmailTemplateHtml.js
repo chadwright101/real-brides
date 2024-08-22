@@ -3,13 +3,13 @@ export const emailTemplateHtml = ({ name, email, message, phone }) => {
   <head>
     <meta charSet="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Adopt a Swimmer</title>
+    <title>Real Brides Magazine</title>
   </head>
   <body style="font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0;">
-    <table style="width: 100%; background-color: #00b5cb;">
+    <table style="width: 100%; background-color: #523B6D;">
       <tr>
         <td>
-          <h1 style="padding: 1rem; color:#fff;">Adopt a Swimmer</h1>
+          <h1 style="padding: 1rem; color:#fff;">Real Brides Magazine</h1>
         </td>
       </tr>
     </table>

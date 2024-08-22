@@ -37,17 +37,10 @@ const LatestIssuesSlider = ({ cssClasses, data }: Props) => {
       pagination={{
         dynamicBullets: true,
       }}
-      centeredSlides
       className={cssClasses}
       slidesPerView={"auto"}
       slidesPerGroup={1}
       spaceBetween={20}
-      breakpoints={{
-        900: {
-          centeredSlides: false,
-        },
-      }}
-      loop
       style={
         {
           "--swiper-pagination-color": "#523B6D",
@@ -58,20 +51,24 @@ const LatestIssuesSlider = ({ cssClasses, data }: Props) => {
       }
     >
       {data.map(({ image, date, url }, index) => (
-        <SwiperSlide key={index} className="max-w-[198px] h-auto pb-10">
+        <SwiperSlide
+          key={index}
+          className="max-w-[198px] h-auto pb-6 tablet:pb-4"
+        >
           <Link
             href={url}
             target="_blank"
             aria-label={`Real Brides Magazine - ${date} Issue`}
-            className="desktop:hover:opacity-85"
+            className="desktop:hover:opacity-85 ease-in-out duration-200"
           >
             <Image
               src={image}
               alt={`Real Brides Magazine - ${date} Issue`}
-              className="rounded-none w-full h-full object-cover"
+              className="rounded-none"
               width={198}
               height={280}
             />
+            <p className="mt-2 italic text-center">{date}</p>
           </Link>
         </SwiperSlide>
       ))}
