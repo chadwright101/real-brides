@@ -103,6 +103,7 @@ const ContactSection = () => {
             height={544}
             className="translate-y-5 mx-auto rotate-[-3.4deg] tablet:rotate-[-6.07deg] tablet:hidden"
             style={{ marginBottom: "calc(-70% - 150px)" }}
+            loading="eager"
           />
         </div>
       </div>
