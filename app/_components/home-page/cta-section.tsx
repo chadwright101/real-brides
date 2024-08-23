@@ -15,6 +15,7 @@ const CtaSection = () => {
           alt="Free download"
           width={400}
           height={565.64}
+          className="h-auto"
         />
         <Button url={catalog[0].url} cssClasses="w-full">
           Free Download
@@ -28,11 +29,11 @@ const CtaSection = () => {
           from you!
         </p>
         <Image
-          src="/assets/placeholders/placeholder-1.jpg"
+          src="/assets/images/IMG-20240404-WA0044.jpg"
           alt="Submit your wedding"
           width={400}
           height={400}
-          className="object-cover w-full h-full"
+          className="object-cover aspect-square w-full h-full"
         />
         <Button url="/#contact" cssClasses="w-full">
           Submit your wedding

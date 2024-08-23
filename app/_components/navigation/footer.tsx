@@ -42,7 +42,7 @@ const Footer = () => {
                   alt="Neon Productions logo"
                   width={60}
                   height={60}
-                  className="drop-shadow-none tablet:hover:opacity-80 ease-in-out duration-200"
+                  className="w-[60px] h-auto drop-shadow-none tablet:hover:opacity-80 ease-in-out duration-200"
                 />
               </Link>
             </li>
@@ -64,7 +64,7 @@ const Footer = () => {
                   alt="Sell My Dress logo"
                   width={60}
                   height={60}
-                  className="drop-shadow-none tablet:hover:opacity-80 ease-in-out duration-200"
+                  className="w-[60px] h-auto drop-shadow-none tablet:hover:opacity-80 ease-in-out duration-200"
                 />
               </Link>
             </li>

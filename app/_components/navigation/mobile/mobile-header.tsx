@@ -35,7 +35,7 @@ const MobileHeader = ({ cssClasses }: Props) => {
             className="rotate-[15deg] -ml-[80px] -mt-6"
           />
         </div>
-        <Link href="/">
+        <Link href="/" className="z-20">
           <Image
             src="/assets/real-brides-logo-black.png"
             alt="Real Brides logo"
@@ -60,7 +60,7 @@ const MobileHeader = ({ cssClasses }: Props) => {
             width={24}
             height={24}
             className={classNames("drop-shadow-none", {
-              "mr-4": showMenu,
+              "mr-": showMenu,
             })}
             priority
           />
@@ -100,7 +100,7 @@ const MobileHeader = ({ cssClasses }: Props) => {
               alt="Protea flower image"
               width={315.34}
               height={331.51}
-              className="protea-image translate-y-1 rotate-[-7.58deg]"
+              className="protea-image translate-y-1 translate-x-3 rotate-[-7.58deg]"
             />
           </div>
         </nav>

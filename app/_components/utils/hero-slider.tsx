@@ -58,7 +58,8 @@ const HeroSlider = ({ cssClasses, desktop, data }: Props) => {
               alt={`Real Brides - Image ${index + 1}`}
               className="rounded-none w-full h-full object-cover"
               width={1280}
-              height={600}
+              height={857}
+              loading={index < 1 ? "eager" : "lazy"}
             />
           </SwiperSlide>
         ))}
@@ -124,6 +125,7 @@ const HeroSlider = ({ cssClasses, desktop, data }: Props) => {
                 className="rounded-none w-full h-full object-cover"
                 width={900}
                 height={540}
+                loading={index < 1 ? "eager" : "lazy"}
               />
             </SwiperSlide>
           </SwiperSlide>
