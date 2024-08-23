@@ -17,7 +17,7 @@ const CtaSection = () => {
           height={565.64}
           className="h-auto"
         />
-        <Button url={catalog[0].url} cssClasses="w-full">
+        <Button url={catalog[0].url} cssClasses="w-full" target="_blank">
           Free Download
         </Button>
         <hr className="border-black/25 mt-5 desktop:hidden" />
