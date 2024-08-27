@@ -9,7 +9,7 @@ const Vendors = () => {
 
   return (
     <main className="mt-10 mb-10 px-5 max-w-[1080px] mx-auto">
-      <h1 className="mb-10 text-center">Vendors</h1>
+      <h1 className="mb-15 text-center">Vendors</h1>
       <ul className="flex flex-wrap justify-around items-center gap-[60px] list-none">
         {sortedVendors.map(({ name, url, logo }, index) => (
           <li key={index} className="py-4 px-8 border border-purple">
