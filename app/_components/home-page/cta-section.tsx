@@ -25,7 +25,7 @@ const CtaSection = () => {
       <article className="flex flex-col gap-7 w-full max-w-[400px] desktop:w-[280px]">
         <h2 className="text-center">Submit your wedding to be featured</h2>
         <p className="text-center">
-          What to be featured in one of our upcoming editions? We’d love to hear
+          Want to be featured in one of our upcoming editions? We’d love to hear
           from you!
         </p>
         <Image

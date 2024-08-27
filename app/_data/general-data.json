@@ -118,128 +118,64 @@
   },
   "vendors": [
     {
-      "name": "Collisheen Estate",
-      "url": "https://www.collisheen.co.za/"
-    },
-    {
-      "name": "Tsekama Wedding Venue & Private Game Reserve",
-      "url": "https://www.tsekama.co.za/"
-    },
-    {
-      "name": "Inkwenkwezi Game Reserve",
-      "url": "http://visitbuffalocity.co.za/"
-    },
-    {
-      "name": "Oakfield Farm",
-      "url": "https://oakfield.co.za/"
-    },
-    {
-      "name": "Vredenburg Manor",
-      "url": "https://vredenburgmanor.co.za/"
-    },
-    {
       "name": "The Silver Sixpence",
+      "logo": "/assets/images/vendors/the-silver-sixpence-logo.jpg",
       "url": "http://thesilversixpence.co.za/"
     },
     {
-      "name": "Fairview Hotel",
-      "url": "https://www.fairviewhotel.co.za/"
+      "name": "Neon Productions",
+      "logo": "/assets/images/vendors/neon-productions-logo.jpg",
+      "url": "http://neonproductions.co.za/"
     },
     {
-      "name": "Tula Baba Guest Lodge",
-      "url": "https://www.tulababa.africa/"
+      "name": "Fairview Hotel",
+      "logo": "/assets/images/vendors/fairview-logo.jpg",
+      "url": "https://youtu.be/c36xbWS5BWM"
+    },
+    {
+      "name": "Memoire",
+      "logo": "/assets/images/vendors/memoire-logo.jpg",
+      "url": "https://youtu.be/LamPX_KmD6k"
+    },
+    {
+      "name": "Collisheen Estate",
+      "logo": "/assets/images/vendors/collisheen-estate-logo.jpg",
+      "url": "https://www.collisheen.co.za/"
     },
     {
       "name": "Riverside Country Estate",
-      "url": "https://www.riversidecountryestate.co.za/"
+      "logo": "/assets/images/vendors/riverside-country-estate-logo.jpg",
+      "url": "https://youtu.be/YNqJ5JopvIY"
     },
     {
-      "name": "Gourikwa Reserve",
-      "url": "https://gourikwa.co.za/"
+      "name": "Tula Baba Guest Lodge",
+      "logo": "/assets/images/vendors/tula-baba-logo.jpg",
+      "url": "https://youtu.be/hG23SA5MIH0"
     },
     {
-      "name": "Zulu Nyala",
-      "url": "https://www.zulunyala.co.za/"
+      "name": "Oakfield Farm",
+      "logo": "/assets/images/vendors/oakfield-farm-logo.jpg",
+      "url": "https://oakfield.co.za/"
     },
     {
-      "name": "Ice Destination Wedding Planners",
-      "url": "https://www.just-add-ice.info/"
+      "name": "Tsekama Wedding Venue",
+      "logo": "/assets/images/vendors/tsekama-logo.jpg",
+      "url": "https://www.tsekama.co.za/"
     },
     {
-      "name": "Dullstroom Country Weddings",
-      "url": "https://dullstroomcountryweddings.com/"
+      "name": "Pink Book",
+      "logo": "/assets/images/vendors/pink-book-logo.png",
+      "url": "https://pink-book.co.za/"
     },
     {
-      "name": "Bergvallei Estate",
-      "url": "https://bergvallei.co.za/"
+      "name": "Sell My Dress",
+      "logo": "/assets/images/vendors/sell-my-dress-logo.png",
+      "url": "https://sellmyweddingdress.co.za/"
     },
     {
-      "name": "Cradle Valley",
-      "url": "https://www.cradlevalley.co.za/"
-    },
-    {
-      "name": "Morgon Bay Hotel",
-      "url": "https://www.morganbayhotel.co.za/"
-    },
-    {
-      "name": "Goedgeleven",
-      "url": "https://goedgeleven.co.za/"
-    },
-    {
-      "name": "Thornybush",
-      "url": "https://www.thornybush.com/"
-    },
-    {
-      "name": "Rickety Bridge",
-      "url": "https://www.ricketybridge.com/"
-    },
-    {
-      "name": "Dwarsberg",
-      "url": "https://www.trouthaven.co.za/"
-    },
-    {
-      "name": "Rolling Waters",
-      "url": "https://rollingwaters.co.za/"
-    },
-    {
-      "name": "Cathedral Peak Hotel",
-      "url": "https://www.cathedralpeak.co.za/"
-    },
-    {
-      "name": "Tala Collection",
-      "url": "http://www.tala.co.za/"
-    },
-    {
-      "name": "Toadbury Hall",
-      "url": "http://toadbury.co.za/"
-    },
-    {
-      "name": "Haycroft Farm",
-      "url": "https://www.haycroftfarm.com/"
-    },
-    {
-      "name": "Whipsering Thorns Guest Farm",
-      "url": "https://www.whisperingthorns.com/"
-    },
-    {
-      "name": "Smitsfield",
-      "url": "https://smitsfield.co.za/"
-    },
-    {
-      "name": "Welgelegen Cherry Estate",
-      "url": "https://wcestate.co.za/"
-    },
-    {
-      "name": "Brahman Hills",
-      "url": "https://www.brahmanhills.co.za/"
-    },
-    {
-      "name": "Sugarbush Hill",
-      "url": "https://www.sugarbushhill.co.za/"
-    },
-    {
-      "name": "Eensgezind",
-      "url": "https://www.eensgezind.co.za/"
+      "name": "Cosmetix",
+      "logo": "/assets/images/vendors/cosmetix-logo.jpg",
+      "url": "https://cosmetix.co.za"
     }
   ]
 }

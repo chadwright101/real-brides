@@ -38,7 +38,7 @@ const Footer = () => {
             <li>
               <Link href="https://www.neonproductions.co.za/" target="_blank">
                 <Image
-                  src="/assets/images/neon-productions-logo.png"
+                  src="/assets/images/vendors/neon-productions-logo.jpg"
                   alt="Neon Productions logo"
                   width={60}
                   height={60}
@@ -49,7 +49,7 @@ const Footer = () => {
             <li>
               <Link href="https://pink-book.co.za/" target="_blank">
                 <Image
-                  src="/assets/images/pink-book-logo.png"
+                  src="/assets/images/vendors/pink-book-logo.png"
                   alt="Pink Book logo"
                   width={60}
                   height={60}
@@ -60,7 +60,7 @@ const Footer = () => {
             <li>
               <Link href="https://sellmyweddingdress.co.za/" target="_blank">
                 <Image
-                  src="/assets/images/sell-my-dress-logo.png"
+                  src="/assets/images/vendors/sell-my-dress-logo.png"
                   alt="Sell My Dress logo"
                   width={60}
                   height={60}
