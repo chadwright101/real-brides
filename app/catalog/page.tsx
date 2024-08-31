@@ -1,8 +1,14 @@
-import catalogData from "@/app/_data/general-data.json";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
+import catalogData from "@/app/_data/general-data.json";
+
 const { catalog } = catalogData;
+
+export const metadata: Metadata = {
+  title: "Catalog - Real Brides Magazine",
+};
 
 const Catalog = () => {
   return (

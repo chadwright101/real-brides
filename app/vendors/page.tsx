@@ -1,8 +1,14 @@
-import vendorData from "@/app/_data/general-data.json";
+import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
+import vendorData from "@/app/_data/general-data.json";
+
 const { vendors } = vendorData;
+
+export const metadata: Metadata = {
+  title: "Vendors - Real Brides Magazine",
+};
 
 const Vendors = () => {
   const sortedVendors = vendors.sort((a, b) => a.name.localeCompare(b.name));
