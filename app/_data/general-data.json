@@ -12,6 +12,11 @@
   },
   "catalog": [
     {
+      "date": "September 2024",
+      "image": "/assets/images/covers/2024/real-brides-cover-sep-24.jpg",
+      "url": "https://real-brides.s3.eu-south-2.amazonaws.com/magazines/2024/Real-Brides-Sep-2024.pdf"
+    },
+    {
       "date": "August 2024",
       "image": "/assets/images/covers/2024/real-brides-cover-aug-24.jpg",
       "url": "/wp-content/uploads/2024/08/Real%20Brides%20Magazine%20August%202024.pdf"

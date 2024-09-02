@@ -6,6 +6,7 @@ import Header from "./_components/navigation/header";
 import Footer from "./_components/navigation/footer";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://realbrides.co.za"),
   title: "Real Brides Magazine",
   description:
     "Real Brides Magazine is all about the weddings of brides who are normal everyday people and that is the key.",
