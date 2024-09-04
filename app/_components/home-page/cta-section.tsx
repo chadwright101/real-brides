@@ -2,6 +2,7 @@ import Image from "next/image";
 import Button from "../utils/button";
 
 import catalogData from "@/app/_data/general-data.json";
+import Link from "next/link";
 
 const { catalog } = catalogData;
 
@@ -56,9 +57,18 @@ const CtaSection = () => {
             className="desktop:object-cover desktop:h-full desktop:w-full desktop:overflow-visible desktop:mt-2"
           />
         </div>
-        <Button url="/#contact" cssClasses="w-full desktop:mt-auto">
-          Advertise with us
-        </Button>
+        <div className="grid gap-7">
+          <Button url="/#contact" cssClasses="w-full desktop:mt-auto">
+            Advertise with us
+          </Button>
+          <Link
+            href="/assets/images/advertising-rates-2024-real-brides-magazine.jpg"
+            target="_blank"
+            className="p-3 -m-3 flex gap-4 justify-center desktop:order-first text-[#0000EE] uppercase desktop:hover:opacity-80 ease-in-out duration-150 desktop:p-0 desktop:m-0"
+          >
+            -<span>View rate card</span>-
+          </Link>
+        </div>
         <hr className="border-black/25 mt-5 desktop:hidden" />
       </article>
     </main>
