@@ -181,6 +181,11 @@
       "name": "Cosmetix",
       "logo": "/assets/images/vendors/cosmetix-logo.jpg",
       "url": "https://cosmetix.co.za"
+    },
+    {
+      "name": "Dischem",
+      "logo": "/assets/images/vendors/dischem-logo.png",
+      "url": "https:/www.dischem.co.za"
     }
   ]
 }
