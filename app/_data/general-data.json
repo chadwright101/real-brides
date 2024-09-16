@@ -2,11 +2,14 @@
   "images": {
     "homePage": {
       "heroSlider": [
-        "/assets/images/image00010.jpg",
-        "/assets/images/IMG-20240619-WA0018.jpg",
-        "/assets/images/IMG_5852.jpg",
-        "/assets/images/RibeiroWedding (254).jpg",
-        "/assets/images/TM_BridalParty_byjennastorey-2.jpg"
+        "/assets/images/slideshow/D+KWedding-826.jpg",
+        "/assets/images/slideshow/60800748_873968259626967_919449517642743808_n.jpg",
+        "/assets/images/slideshow/47688762_2370539129655114_3574273514603020288_n.jpg",
+        "/assets/images/slideshow/image00010.jpg",
+        "/assets/images/slideshow/IMG-20240619-WA0018.jpg",
+        "/assets/images/slideshow/IMG_5852.jpg",
+        "/assets/images/slideshow/RibeiroWedding.jpg",
+        "/assets/images/slideshow/TM_BridalParty_byjennastorey-2.jpg"
       ]
     }
   },
@@ -186,6 +189,11 @@
       "name": "Dischem",
       "logo": "/assets/images/vendors/dischem-logo.png",
       "url": "https:/www.dischem.co.za"
+    },
+    {
+      "name": "Mighty Fine",
+      "logo": "/assets/images/vendors/mighty-fine-logo.jpg",
+      "url": "https://www.weddings.mightyfine.co.za"
     }
   ]
 }
