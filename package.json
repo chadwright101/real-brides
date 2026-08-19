@@ -2,6 +2,9 @@
   "name": "real-brides",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "24.x"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -25,6 +28,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/react-google-recaptcha": "^2.1.9",
+    "baseline-browser-mapping": "^2.11.15",
     "eslint": "^9",
     "eslint-config-next": "16.0.10",
     "postcss": "^8",
